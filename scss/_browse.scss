@@ -1,0 +1,199 @@
+// browse-one
+.browse-one {
+    .one, .two {
+        background-color: $background;
+        border-radius: $br;
+    }
+    .one {
+        align-self: stretch;
+    }
+    h2 {
+        font-weight: 700;
+        span:nth-child(1) {
+        text-decoration: underline;
+        color: #fff;
+        }
+    }
+    .clips {
+        display: flex;
+        padding-bottom: 4px!important;
+    }
+    .card {
+        margin: auto 10px;
+        border: none;
+        border-radius: $br;
+        overflow: hidden;
+        background: transparent;
+        color: #fff;
+        .img-box {
+            width: 100%;
+            position: relative;
+            overflow-y: hidden;
+            &:hover img {
+                transition: $ts;
+                filter: blur(1.5px);
+            }
+            span {
+                position: absolute;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 5px 10px;
+                white-space: nowrap;
+                text-align: center;
+                bottom: 0;
+                left: 50%;
+                background-color: $background;
+                color: $primary;
+                border-radius: $br;
+                transform: translate(-50%, 100%);
+            }
+            &:hover span{
+                transition: $ts;
+                transform: translate(-50%, -60%);
+            }
+        }
+        img {
+            border-radius: $br;
+            width: 100%;
+        }
+    }
+    .star, .download-icon {
+        width: 15px!important;
+    }
+}
+.game {
+    img {
+        border-radius: $br;
+    }
+}
+.to-download {
+    overflow: hidden;
+    text-align: center;
+    img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        padding: 7px;
+        background-color: $secondary;
+        &:hover {
+            transition: $ts;
+            border: 1px solid $primary;
+        }
+    }
+    
+}
+.downloaded-game-btn {
+    font-weight: 600;
+    background-color: $secondary;
+    border: 1px solid $primary;
+    color: $primary;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    &:hover {
+        transition: $ts;
+        background-color: $primary;
+        color: #fff;
+    }
+}
+
+//browse-two
+.tips{
+    .card {
+        height: 260px;
+        padding: 25px;
+        background-color: transparent;
+        border-color: $text-color;
+        border-radius: $br;
+        overflow: hidden;
+        p {
+            font-size: 15px;
+            color: $text-color;
+            font-weight: 300;
+        }
+    }
+    .service-icon {
+        border-radius: 50%;
+        width: 60px;
+    }
+    div a {
+        width: 160px;
+        background-color: $primary;
+        color: #fff;
+        &:hover {
+            transition: $ts;
+            background-color: #fff;
+            color: $primary;
+        }
+    }
+}
+
+// browse three
+.browse-three {
+    background: $background;
+    border-radius: $br;
+    .card {
+        background-color: transparent;
+        border: none;
+    }
+}
+.ls-img {
+    border-radius: $br;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.certified {
+    background-color: $primary;
+    border-radius: 50%;
+}
+.stream:hover .live,.stream:hover .views,.stream:hover .game-tag{
+    transition: $ts;
+    opacity: 1;
+}
+.tag{
+    font-size: 20px;
+}
+.ls-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.live, .views, .game-tag {
+    white-space: nowrap;
+    text-align: center;
+    background-color: $primary;
+    position: absolute;
+    opacity: 0;
+}
+.live {
+    top: 0;
+    right: 0;
+    transform: translate(-10%, 20%);
+    padding: 0 10px;
+}
+.views {
+    left: 0;
+    bottom: 0;
+    padding: 1px 10px;
+    transform: translate(10%, -20%);
+    img {
+        width: 20px;
+    }
+}
+.game-tag {
+    right: 0;
+    bottom: 0;
+    padding: 1px 10px;
+    transform: translate(-9%, -20%);
+    img {
+        width: 25px;
+    }
+    span {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,91 @@
+*{
+    color: #fff;
+}
+//details one
+.feature-left, .feature-right {
+    border-radius: $br;
+}
+.star, .download, .server, .console {
+    width: 25px;
+    cursor: pointer;
+}
+.console {
+    width: 35px;
+}
+//details one
+
+
+// details two 
+.details {
+    background: $background;
+    padding: 18px 10px;
+    border-radius: $br;
+
+}
+.star, .server {
+    width: 15px;
+}
+.download-icon {
+    width: 16px;
+}
+.console {
+    width: 20px;
+}
+.detail-box {
+    min-height: 100px;
+    background: $secondary;
+    padding: 10px 15px;
+    border-radius: $br;
+    p {
+        // white-space: nowrap;
+        margin-bottom: 0;
+    }
+}
+.details-two h1 {
+    font-weight: bolder;
+}
+.detail-img {
+    border-radius: $br;
+    width: 100%;
+}
+.detail-text {
+    text-align: justify;
+    font-size: 15px;
+    color: $text-color;
+    font-weight: 400;
+    a {
+        text-decoration: none;
+    }
+}
+.detail-btn {
+    color: $primary;
+    font-size: 15px;
+    border: 1px solid $primary;
+    padding: 10px 20px;
+    transition: $ts;
+    &:hover {
+        background-color: #fff;
+        color: $primary;
+    }
+}
+// details two 
+
+// details three
+.details-three {
+    background: $background;
+    padding: 40px;
+    border-radius: $br;
+    font-size: 13px;
+    h2 {
+        span:nth-child(1) {
+            text-decoration: underline;
+        }
+    }
+    .star, .download {
+        width: 20px;
+    }
+}
+.game-img {
+    border-radius: $br;
+}
+// details three

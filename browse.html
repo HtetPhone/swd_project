@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Your Games</title>
+    <meta name="description" content="Your Gaming Website: a place where you can advanture and voyage throu visual worlds.">
+    <!-- for og  -->
+    <meta property="og:title" content="Cyborg Gaming" />
+    <meta property="og:image" content="images/clogo.png" />
+
+    <!-- for twitter  -->
+    <meta property="twitter:title" content="Cyborg Gaming" />
+    <meta property="twitter:image" content="images/clogo.png" />
+    
+    <link rel="shortcut icon" href="images/clogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bs.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="node_modules/wow.js/css/libs/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- loading  -->
+    <section class="loading">
+      <img src="images/loading.gif" alt="" class="loading-img">
+    </section>
+    <!-- header -->
+    <section class="header">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid py-3 justify-content-between">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="logo">
+            </a>
+
+            <!-- search  -->
+            <form class="d-flex search-form d-none d-lg-block" role="search">
+              <label for="search"><img src="images/search.svg" alt=""></label>
+              <input class="search-box py-2 rounded-pill" type="search" placeholder="Search" aria-label="Search" id="search">
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+
+            <!-- toggler  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <!-- nav menu  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between align-items-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="browse.html">Browse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="details.html">Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="stream.html">Stream</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link profile-btn rounded-pill" href="profile.html">profile <img src="images/profile-header.jpg" class="ms-1 profile-icon" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </section>
+    <!-- header -->
+    
+    <!-- browse content  -->
+    <div class="content">
+        <div class="wrapper container my-3 p-4 p-md-5">
+            <!-- browse one  -->
+            <div class="browse-one row justify-content-evenly mt-2 my-5">
+              <div class="col-12 col-lg-7 one mb-4 p-4">
+                <h2 class="wow bounceInLeft"><span>Featured</span> <span class="primary-text">Games</span></h2>
+                <div class="clips p-3 wow bounceInLeft" data-wow-delay="0.3s">
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-01.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">CS-GO</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-end">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-02.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">Gamezer</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-end">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-03.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">Island Rusty</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-end">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-01.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">CS-GO</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-02.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">Gamezer</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                  <div class="card my-4">
+                    <div class="img-box">
+                      <img src="images/featured-03.jpg" alt="">
+                      <span>2.4K Streaming</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                      <p class="fw-bolder">Island Rusty</p>
+                      <p><img src="images/star.svg" class="star"> 4.8</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <p class="secondary-text">249K Downloads</p>
+                      <p><img src="images/download.svg" class="download-icon"> 2.3M</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 two mb-4 p-4 position-relative">
+                <h2 class="wow bounceInRight"><span>Top</span> <span class="primary-text">Downloaded</span></h2>
+                <div class="downloaded-games my-5 wow bounceInRight" data-wow-delay="0.3s">
+                  <div class="game row justify-content-between my-4 aling-items-start">
+                    <div class="col-4 text-center">
+                      <img src="images/game-01.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <div class="text-box">
+                        <div class="fw-bold">Fornite</div>
+                        <span class="secondary-text">Sandbox</span>
+                        <div class="icon-box d-flex">
+                          <p><img src="images/star.svg" class="star"> 4.8</p>
+                          <p class="ms-2"><img src="images/download.svg" class="download-icon ms-2"> 2.3M</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="to-download"><img src="images/download.svg"></a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="game row justify-content-between my-4 aling-items-start">
+                    <div class="col-4 text-center">
+                      <img src="images/game-02.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <div class="text-box">
+                        <div class="fw-bold">CS-GO</div>
+                        <span class="secondary-text">Legendary</span>
+                        <div class="icon-box d-flex">
+                          <p><img src="images/star.svg" class="star"> 4.8</p>
+                          <p class="ms-2"><img src="images/download.svg" class="download-icon ms-2"> 2.3M</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="to-download"><img src="images/download.svg"></a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="game row justify-content-between my-4 aling-items-start">
+                    <div class="col-4 text-center">
+                      <img src="images/game-03.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <div class="text-box">
+                        <div class="fw-bold">PUBG</div>
+                        <span class="secondary-text">BattleRoyale</span>
+                        <div class="icon-box d-flex">
+                          <p><img src="images/star.svg" class="star"> 4.8</p>
+                          <p class="ms-2"><img src="images/download.svg" class="download-icon ms-2"> 2.3M</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="to-download"><img src="images/download.svg"></a>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <a href="#" class="downloaded-game-btn btn rounded-pill">View All Games</a>
+              </div>
+            </div>
+            <!-- browse one  -->
+
+            <!-- browse two -->
+            <div class="browse-two my-5">
+              <h2 class="fw-bolder text-center my-4 wow fadeInDown"><span class="text-decoration-underline">How To Start Your</span> <span class="primary-text">Livestream</span></h2>
+              <div class="tips row align-items-stretch my-5">
+                <div class="col-12 col-md-4">
+                  <div class="card mb-3 wow flipInX">
+                    <img src="images/service-01.jpg" alt="" class="service-icon">
+                      <h6 class="my-3">Go To Your Profile</h6>
+                      <p class="mb-3">Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card mb-3 wow flipInX">
+                    <img src="images/service-02.jpg" alt="" class="service-icon">
+                      <h6 class="my-3">Live Stream Button</h6>
+                      <p class="mb-3">If you wish to support us, you can make a <strong>small contribution via PayPal</strong> to info [at] templatemo.com</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card mb-3 wow flipInX">
+                    <img src="images/service-03.jpg" alt="" class="service-icon">
+                      <h6 class="my-3">You Are Live</h6>
+                      <p class="mb-3">You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.</p>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <a href="#" class="btn rounded-pill">Go To Profile</a>
+                </div>
+              </div>
+            </div>
+            <!-- browse two -->
+            <hr>
+            <!-- browse three -->
+            <div class="browse-three my-5 mb-3 p-3">
+              <h2 class="fw-bolder my-4"><span class="text-decoration-underline">Most Popular</span> <span class="primary-text">Livestream</span></h2>
+              <div class="live-streams row">
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="mx-2 stream my-4 wow fadeInRightBig">
+                    <div class="ls-box position-relative">
+                      <img src="images/stream-01.jpg" alt="" class="ls-img w-100">
+                      <div class="live rounded-pill">Live</div>
+                      <div class="views d-flex justify-content-center align-items-center rounded-pill">
+                        <img src="images/eye.svg" alt="" class="view-icon me-1"> 1.2K
+                      </div>
+                      <div class="game-tag d-flex align-items-center justify-content-center rounded-pill">
+                        <img src="images/game-console.svg" alt=""> <span class="">CS-GO</span>
+                      </div>
+                    </div>
+                    <div class="stream-status d-flex justify-content-between my-4">
+                      <div class="stream-box">
+                        <img src="images/avatar-01.jpg" class="avatar" alt="">
+                      </div>
+                      <div class="tag ms-3">
+                        <p class="streamer-name d-flex align-items-center">
+                          <img src="images/check.svg" class="certified" alt="">
+                          <span class="primary-text ms-1"> KenganC</span>
+                        </p>
+                        <h6 class="fw-bold">
+                          Just Talking With Fans
+                        </h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="mx-2 stream my-4 wow fadeInRightBig" data-wow-delay="0.3s">
+                    <div class="ls-box position-relative">
+                      <img src="images/stream-02.jpg" alt="" class="ls-img w-100">
+                      <div class="live rounded-pill">Live</div>
+                      <div class="views d-flex justify-content-center align-items-center rounded-pill">
+                        <img src="images/eye.svg" alt="" class="view-icon me-1"> 1.2K
+                      </div>
+                      <div class="game-tag d-flex align-items-center justify-content-between rounded-pill">
+                        <img src="images/game-console.svg" alt=""> <span class="">CS-GO</span>
+                      </div>
+                    </div>
+                    <div class="stream-status d-flex my-4">
+                      <div class="stream-box">
+                        <img src="images/avatar-02.jpg" class="avatar" alt="">
+                      </div>
+                      <div class="tag ms-3">
+                        <p class="streamer-name d-flex align-items-center">
+                          <img src="images/check.svg" class="certified" alt="">
+                          <span class="primary-text ms-1"> LunaMa</span>
+                        </p>
+                        <h6 class="fw-bold">
+                          CS-GO 36 Hours Live Stream
+                        </h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="mx-2 stream my-4 wow fadeInRightBig" data-wow-delay="0.4s">
+                    <div class="position-relative ls-box">
+                      <img src="images/stream-03.jpg" alt="" class="ls-img w-100">
+                      <div class="live rounded-pill">Live</div>
+                      <div class="views d-flex justify-content-center align-items-center rounded-pill">
+                        <img src="images/eye.svg" alt="" class="view-icon me-1"> 2K
+                      </div>
+                      <div class="game-tag d-flex align-items-center justify-content-center rounded-pill">
+                        <img src="images/game-console.svg" alt=""> <span class="">Dota 2</span>
+                      </div>
+                    </div>
+                    <div class="stream-status d-flex my-4">
+                      <div class="stream-box">
+                        <img src="images/avatar-03.jpg" class="avatar" alt="">
+                      </div>
+                      <div class="tag ms-3">
+                        <p class="streamer-name d-flex align-items-center">
+                          <img src="images/check.svg" class="certified" alt="">
+                          <span class="primary-text ms-1">  Areluwa</span>
+                        </p>
+                        <h6 class="fw-bold">
+                          Maybe Nathej Allnight Chillin'
+                        </h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="mx-2 stream my-4 wow fadeInRightBig" data-wow-delay="0.5s">
+                    <div class="position-relative ls-box">
+                      <img src="images/stream-04.jpg" alt="" class="ls-img w-100 w-100">
+                      <div class="live rounded-pill">Live</div>
+                      <div class="views d-flex justify-content-center align-items-center rounded-pill">
+                        <img src="images/eye.svg" alt="" class="view-icon me-1"> 1K
+                      </div>
+                      <div class="game-tag d-flex align-items-center justify-content-center rounded-pill">
+                        <img src="images/game-console.svg" alt=""> <span class="">Fornite</span>
+                      </div>
+                    </div>
+                    <div class="stream-status d-flex my-4">
+                      <div class="stream-box">
+                        <img src="images/avatar-01.jpg" class="avatar" alt="">
+                      </div>
+                      <div class="tag ms-3">
+                        <p class="streamer-name d-flex align-items-center">
+                          <img src="images/check.svg" class="certified" alt="">
+                          <span class="primary-text ms-1">  GangTm</span>
+                        </p>
+                        <h6 class="fw-bold">
+                          Live Streaming Till Morning
+                        </h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- browse three -->
+        </div>
+    </div>
+    <!-- browse content  -->
+
+    <!-- footer  -->
+    <div class="footer py-3">
+      <p class="text-center text-white">
+        Copyright © 2036 <a href="">Cyborg Gaming</a> Company. All rights reserved. <br>
+        Design: TemplateMo
+      </p>
+    </div>
+    <!-- footer  -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/edit_wow.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+// profile one 
+.profile-one {
+    background-color: $background;
+    border-radius: $br;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.profile-img {
+    border-radius: $br;
+}
+.online-offline {
+    text-decoration: none;
+    color: #fff;
+    background-color: $primary;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.start-ls {
+    text-decoration: none;
+    color: $primary;
+    border: 1px solid $primary;
+    padding: 8px 25px;
+    transition: $ts;
+    &:hover {
+        color: $primary;
+        background-color: #fff;
+        border-color: transparent;
+    }
+}
+.statistic {
+    background-color: $secondary;
+    border-radius: $br;
+}
+.p-clip {
+    width: 90%;
+    border-radius: $br;
+    background-color: $secondary;
+    padding: 20px 10px;
+}
+.clip-img {
+    width: 100%;
+    border-radius: $br;
+}
+.m-play {
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.p-clip:hover .clip-img {
+    filter: blur(1.5px);
+}
+.load-more {
+    background-color: $primary;
+    padding: 15px 30px;
+    transition: $ts;
+    font-size: 13px;
+    &:hover {
+        background-color: #fff;
+        color: $primary!important;
+    }
+}
+// profile one 
+
+//profile two 
+.profile-two {
+    background-color: $background;
+    border-radius: $br;
+    font-size: 14px;
+    padding: 40px 25px;
+}
+.game-img {
+    width: 85px;
+    border-radius: $br;
+}
+.downloaded-btn {
+    border: 2px solid $secondary;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+//profile two 

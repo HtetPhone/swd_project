@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+// variables 
+$background : #1f2122;
+$primary : #d95ea8;
+$secondary : #27292a;
+$text-color: #666;
+$br : 20px;
+$ts : 0.4s ease-in-out;
+.primary-text {
+    color: $primary;
+}
+.secondary-text {
+    color: $text-color;
+    // white-space: nowrap;
+}

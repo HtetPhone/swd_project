@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <meta name="description" content="Your Gaming Website: a place where you can advanture and voyage throu visual worlds.">
+    <!-- for og  -->
+    <meta property="og:title" content="Cyborg Gaming" />
+    <meta property="og:image" content="images/clogo.png" />
+
+    <!-- for twitter  -->
+    <meta property="twitter:title" content="Cyborg Gaming" />
+    <meta property="twitter:image" content="images/clogo.png" />
+    <link rel="shortcut icon" href="images/clogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bs.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="node_modules/wow.js/css/libs/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="loading">
+        <img src="images/loading.gif" alt="" class="loading-img">
+    </section>
+    <!-- header -->
+    <section class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid py-3 justify-content-between">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo">
+              </a>
+
+              <!-- search  -->
+              <form class="d-flex search-form d-none d-lg-block" role="search">
+                <label for="search"><img src="images/search.svg" alt=""></label>
+                <input class="search-box py-2 rounded-pill" type="search" placeholder="Search" aria-label="Search" id="search">
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+              </form>
+
+              <!-- toggler  -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+
+              <!-- nav menu  -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between align-items-center flex-wrap">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="browse.html">Browse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="details.html">Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="stream.html">Stream</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link profile-btn active rounded-pill" aria-current="page" href="profile.html">profile <img src="images/profile-header.jpg" class="ms-1 profile-icon" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </section>
+    <!-- header -->
+    
+    <!-- Stream content  -->
+    <div class="content">
+        <div class="wrapper container my-5 p-4 p-lg-5">
+            <!-- profile one  -->
+            <div class="profile-one row align-items-center my-2">
+                <div class="col-12 col-lg-4 mt-2 mb-5">
+                    <img src="images/profile.jpg" alt="" class="profile-img w-100 wow bounceIn">
+                </div>
+                <div class="col-12 col-lg-4 mb-5 wow bounceInDown">
+                    <span class="rounded-pill online-offline">Offline</span>
+                    <h3 class="name fw-bolder my-4">Alan Smithee</h3>
+                    <p class="secondary-text">You Haven't Gone Live yet. Go Live By Touching The Button Below.</p>
+                    <a href="" class="rounded-pill d-inline-block start-ls my-3">Start Live Stream</a>
+                </div>
+                <div class="col-12 col-lg-4 mb-5 statistic p-5 wow bounceInRight" data-wow-delay="0.5s">
+                    <div class="d-flex justify-content-between">
+                        <span class="secondary-text">Games Downloaded</span>
+                        <span class="primary-text fw-bold">3</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="secondary-text">Friends Online</span>
+                        <span class="primary-text fw-bold">16</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="secondary-text">Live Streams</span>
+                        <span class="primary-text fw-bold">None</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="secondary-text">Clips</span>
+                        <span class="primary-text fw-bold">29</span>
+                    </div>
+                </div>
+                <hr>
+                <h2 class="fw-bolder my-4"><span class="text-decoration-underline">Your Popular</span> <span class="primary-text">Livestream</span></h2>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-clip mb-5 wow fadeIn">
+                        <div class="clip-box position-relative">
+                            <img src="images/clip-01.jpg" alt="" class="clip-img">
+                            <img src="images/mplay.svg" alt="" class="m-play">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <span>First Clip</span>
+                            <span><img src="images/eye.svg" alt="" class="eye"> 250</span>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-clip mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="clip-box position-relative">
+                            <img src="images/clip-02.jpg" alt="" class="clip-img">
+                            <img src="images/mplay.svg" alt="" class="m-play">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <span>Second Clip</span>
+                            <span><img src="images/eye.svg" alt="" class="eye"> 180</span>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-clip mb-5 wow fadeIn" data-wow-delay="0.8s">
+                        <div class="clip-box position-relative">
+                            <img src="images/clip-03.jpg" alt="" class="clip-img">
+                            <img src="images/mplay.svg" alt="" class="m-play">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <span>Third Clip</span>
+                            <span><img src="images/eye.svg" alt="" class="eye"> 250</span>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-clip mb-5 wow fadeIn" data-wow-delay="1s">
+                        <div class="clip-box position-relative">
+                            <img src="images/clip-04.jpg" alt="" class="clip-img">
+                            <img src="images/mplay.svg" alt="" class="m-play">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <span>Fourth Clip</span>
+                            <span><img src="images/eye.svg" alt="" class="eye"> 350</span>   
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mb-4">
+                    <a href="" class="load-more rounded-pill text-white text-decoration-none wow flash">Load More Clip</a>
+                </div>
+            </div>
+            <!-- profile one  -->
+
+            <!-- profile two  -->
+            <div class="profile-two align-items-center my-5 mb-2">
+                <h2 class="fw-bolder my-4 wow slideInLeft"><span class="text-decoration-underline">Your Gaming</span> <span class="primary-text">Library</span></h2>
+                <div class="game-data row align-items-center my-5 my-md-4 text-center text-md-left wow bounceIn">
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <img src="images/game-01.jpg" class="game-img w-50" alt="">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Dota 2</h6>
+                        <p class="secondary-text">SandBox</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Date Added</h6>
+                        <p class="secondary-text">24/08/2036</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Hours Played</h6>
+                        <p class="secondary-text">634 H 22 Mins</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Currently</h6>
+                        <p class="secondary-text">Downloaded</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 my-3">
+                        <span href="" class="downloaded-btn secondary-text text-decoration-none rounded-pill">Downloaded</span>
+                    </div>
+                </div>
+                <hr class="secondary-text">
+                <div class="game-data row align-items-center my-5 my-md-4 text-center text-md-left wow bounceIn" data-wow-delay="0.5s">
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <img src="images/game-02.jpg" class="game-img w-50" alt="">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Fornite</h6>
+                        <p class="secondary-text">SandBox</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Date Added</h6>
+                        <p class="secondary-text">24/08/2036</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Hours Played</h6>
+                        <p class="secondary-text">734 H 22 Mins</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Currently</h6>
+                        <p class="secondary-text">Downloaded</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 my-3">
+                        <span href="" class="downloaded-btn secondary-text text-decoration-none rounded-pill">Downloaded</span>
+                    </div>
+                </div>
+                <hr class="secondary-text">
+                <div class="game-data row align-items-center my-5 my-md-4 text-center text-md-left wow bounceIn" data-wow-delay="0.8s">
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <img src="images/game-03.jpg" class="game-img w-50" alt="">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">CS-GO</h6>
+                        <p class="secondary-text">SandBox</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Date Added</h6>
+                        <p class="secondary-text">2/08/2036</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Hours Played</h6>
+                        <p class="secondary-text">1034 H 22 Mins</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2 my-3">
+                        <h6 class="mt-2">Currently</h6>
+                        <p class="secondary-text">Downloaded</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 my-3">
+                        <span href="" class="downloaded-btn secondary-text text-decoration-none rounded-pill">Downloaded</span>
+                    </div>
+                </div>
+            </div>
+            <!-- profile two  -->
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="footer py-3">
+      <p class="text-center text-white">
+        Copyright © 2036 <a href="">Cyborg Gaming</a> Company. All rights reserved. <br>
+        Design: TemplateMo
+      </p>
+    </div>
+    <!-- footer  -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="js/edit_wow.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+// @media screen and (max-width: 1160px) {
+    
+// }
+
+// @media screen and (max-width: 988px) {
+// }
+
+@media screen and (max-width: 766px) {
+    .content {
+        padding: 20px;
+    }
+}
+
+// @media screen and (max-width: 518px) {
+//     .item {
+//     }
+//     .wrap {
+//     }
+// }
+
+
+@media (max-width: 1199px) {
+    //browse-one 
+    .browse-one .one {
+        padding: 50px auto!important;
+        h2 {
+            padding-top: 50px;
+        }
+    }
+    .downloaded-game-btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    //header
+    .header.toggled {
+        background-color: transparent;
+    }
+    //nav 
+    .navbar {
+        width: 100%!important;
+        .container-fluid {
+            position: static!important;
+            padding: 0 20px!important;
+
+        }
+    }
+    .navbar-nav {
+        justify-content: flex-start!important;
+        padding-top: 80px;
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        z-index: 10;
+        top: 0;
+        right: -100%;
+        transition: $ts;
+        background-color: rgba(255, 255, 255, 0.781);
+        backdrop-filter: blur(5px);
+        &.toggled {
+            right: 0;
+        }
+    }
+    .nav-item {
+        display: inline-block;
+        width: 90%;
+        height: 40px;
+        margin: 10px auto;
+        border-radius: 0 0 0 15px;
+        // background-color: aqua;
+        border-bottom: 1px solid green;
+        transition: $ts;
+        &:hover {
+            transform: translateX(15px);
+        }
+    }
+    .profile-btn {
+        background-color: transparent!important;
+        padding: 6px 0px!important;
+        &.active {
+            color: $primary!important;
+        }
+    }
+    .profile-icon {
+        display: none;
+    }
+    //browse two 
+    .tips .card {
+        min-height: 380px!important;
+    }
+
+    //browse-three 
+    
+}
+
+@media (max-width: 767px) {
+    //browse two 
+    .tips .card {
+        min-height: 250px!important;
+    }
+}
+
+
+@media (max-width: 540px) {
+    //browse-two 
+    .tips .card {
+        min-height: 350px!important;
+    } 
+    //stream 
+    .follow-btn {
+        width: 70%!important;  
+    }
+
+    //detail 
+    .detail-box {
+        font-size: 13px;
+        // width: 200px;
+    }
+}

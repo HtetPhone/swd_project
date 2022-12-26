@@ -1,0 +1,88 @@
+// stream one 
+.streamer {
+    // text-indent: 15px;
+    margin: auto;
+}
+.streamer-img {
+    border-radius: 50%;
+}
+.tick { 
+    width: 20px;
+}
+.follow-btn {
+    background: $primary;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: $ts;
+    &:hover {
+        background: #fff;
+        color: $primary;
+    }
+}
+.view-all {
+    padding: 5px 20px;
+}
+// stream one 
+
+// stream two 
+.stream-two {
+    position: relative;
+    background-color: $background;
+    border-radius: $br;
+    font-size: 14px;
+    .streamer-img {
+        width: 45px;
+        height: 45px;
+    }
+}
+.stream-box {
+    position: relative;
+    &:hover .status,&:hover .view, &:hover .type {
+        opacity: 1;
+    }
+}
+.stream-img {
+    border-radius: $br;
+}
+.stream-two .status, .view, .type {
+    position: absolute;
+    background-color: $primary;
+    padding: 1.5px 10px;
+    transition: $ts;
+    opacity: 0;
+}
+.status {
+    right: 0;
+    top: 0;
+    transform: translate(-20%, 25%);
+}
+.view {
+    bottom: 0;
+    left: 0;
+    transform: translate(18%, -20%);
+}
+.type {
+    bottom: 0;
+    right: 0;
+    transform: translate(-12%, -25%);
+}
+.eye {
+    width: 15px;
+    margin-top: -1px;
+}
+.s2-btn {
+    background-color: $primary;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;    
+    font-size: 13px;
+    font-weight: 400;
+    &:hover {
+        background-color: #fff;
+        color: $primary;
+    }
+}
+// stream two 
