@@ -5,11 +5,11 @@ I used SASS to manage and design css more efficiently like declaring variables a
 Creating seperate scss files and importing under one single file, which lead to clean and maintainable code structures.
 
 Here are the NPM depedecies I used
-#bootstrap 5.2.2  
-#node-sass 7.0.3
-#slick-carousel 1.8.1
-#tilt-js 1.2.1
-wow.js 1.2.2
+#bootstrap 5.2.2,  
+#node-sass 7.0.3,
+#slick-carousel 1.8.1,
+#tilt-js 1.2.1 &
+wow.js 1.2.2.
 
 I also gotta put Some others design tools and stuffs like
 #canva for my site logo
