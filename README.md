@@ -11,11 +11,11 @@ Here are the NPM depedecies I used
 #tilt-js 1.2.1 &
 wow.js 1.2.2.
 
-I also gotta put Some others design tools and stuffs like
+I also gotta put my hands on some others design tools and stuffs like
 #canva for my site logo
 #random free illustration websites like freepiks etc
 #loader generator such as loader.io?? i think..
 
 As a special work that I did right up in the project isss..
-Since this project is multi-pages site, on the mobile and tablet screens, we gon' get a navbar along, which I enabled it on the scroll up but hide 
+Since this project is multi-pages site, on the mobile and tablet screens, we gon' get a navbar, which I enabled it on the scroll up but hide 
 on the scroll down. and many other works.....
